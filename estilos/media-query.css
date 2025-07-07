@@ -25,12 +25,13 @@ Grandes telas: acima de 1200px*/
 
     section#login > div#formulario {
         float: right;
-        width: 70%;
+        width: 60%;
     }
 }
 
 @media screen and (min-width: 992px) {
     body {
+        width: 100vw;
         background-image: linear-gradient(to top, #E5C3B8, #F2B885)
     }
 
@@ -47,5 +48,11 @@ Grandes telas: acima de 1200px*/
     section#login > div#formulario {
         float: right;
         width: 50%;
+    }
+    div#formulario > h1 {
+        font-size: 2em;
+    }
+    div#formulario > p {
+        font-size: 1.2em;
     }
 }
